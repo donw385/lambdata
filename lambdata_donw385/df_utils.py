@@ -12,7 +12,7 @@ def delete_outliers(x):
   mean = np.mean(elements, axis=0)
   sd = np.std(elements, axis=0)
 
-  final_list = [x for x in __ if (x > mean - 2 * sd)]
+  final_list = [x for x in x if (x > mean - 2 * sd)]
   final_list = [x for x in final_list if (x < mean + 2 * sd)]
   print(final_list)
 
