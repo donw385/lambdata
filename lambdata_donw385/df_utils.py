@@ -2,6 +2,7 @@
 Utility Functions for DataFrames
 """
 import pandas as pd
+import numpy as np
 
 DF_Test = pd.DataFrame([1,2,3])
 
