@@ -5,7 +5,7 @@ import pandas as pd
 
 DF_Test = pd.DataFrame([1,2,3])
 
-def delete_outliers(x):
+delete_outliers = def delete_outliers(x):
   elements = np.array(x)
 
   mean = np.mean(elements, axis=0)
@@ -16,7 +16,7 @@ def delete_outliers(x):
   print(final_list)
 
 
-def date_splitter(df):
+date_splitter = def date_splitter(df):
   df[:5] 
   df['year'] = df['date'].dt.year 
   df['month'] = df['date'].dt.month 
